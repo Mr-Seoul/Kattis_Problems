@@ -9,7 +9,6 @@ p = list(p)
 long = 1000000
 
 dirS = [s[0]-p[0],s[1]-p[1]]
-
 dirE = [e[0]-p[0],e[1]-p[1]]
 
 def normalize(vec):
@@ -17,11 +16,6 @@ def normalize(vec):
 
 dirS = normalize(dirS)
 dirE = normalize(dirE)
-
-differingNorms = 0
-
-if dirS[0] != dirE[0]: differingNorms += 1
-if dirS[1] != dirE[1]: differingNorms += 1
 
 #First to wall, then to corner, then potentially to other corner, then potentially to new access point, then to end
 path = []
