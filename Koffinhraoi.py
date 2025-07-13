@@ -6,7 +6,7 @@ ranges.sort(key=lambda x: (x[1],-1*x[0]))
 
 time = 0
 coffees = 0
-durationsHeap = [] # 
+durationsHeap = []
 
 for duration, deadline in ranges:
     heapq.heappush(durationsHeap, -1*duration)
