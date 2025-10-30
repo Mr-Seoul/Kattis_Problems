@@ -5,6 +5,7 @@ My solutions to [Kattis]([https://open.kattis.com/](https://open.kattis.com/prob
 | Solution :link: | Difficulty | Problem :link: |
 | - | - | - |
 | [Tölvuíhlutir](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Solutions/Tolvuihlutir.py) | 5.2 | [![:cat:](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Kattis.png)](https://open.kattis.com/problems/tolvuihlutir?tab=metadata) |
+| [Ultra-QuickSort](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Solutions/UltraQuickSort.py) | 4.2 | [![:cat:](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Kattis.png)](https://open.kattis.com/problems/ultraquicksort?editresubmit=18558233&tab=metadata) |
 | [Cheater Detection](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Solutions/CheaterDetection.py) | 4.2 | [![:cat:](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Kattis.png)](https://open.kattis.com/problems/cheaterdetection) |
 | [CommonFactors](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Solutions/Commonfactors.py) | 4.2 | [![:cat:](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Kattis.png)](https://open.kattis.com/problems/commonfactors) |
 | [Basic Programming 1](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Solutions/basicprogramming1.py) | 4.2 | [![:cat:](https://github.com/Mr-Seoul/Kattis_Problems/blob/main/Kattis.png)](https://open.kattis.com/problems/basicprogramming1) |
