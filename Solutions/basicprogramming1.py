@@ -30,7 +30,7 @@ def sumevenA():
     return tot
 
 def lettermapping():
-    letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+    letters = "abcdefghijklmnopqrstuvwxzy"
     map = [" " for i in range(N)]
     for i in range(N):
         map[i] = letters[A[i]%26]
