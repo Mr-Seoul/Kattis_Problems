@@ -1,0 +1,52 @@
+import math
+
+class SortingArray:
+    def __init__(self,arr):
+        self.arr = arr
+
+    def mergeSort(self):
+        n = 1
+        arr = self.arr
+        inversions = 0
+
+        def mergeSortedArrays(start,A,B):
+            indexA = 0
+            indexB = 0
+            nonlocal inversions
+            while indexA + indexB < len(A) + len(B):
+                    if indexA < len(A) and indexB < len(B):
+                        if A[indexA] <= B[indexB]:
+                            self.arr[start + indexA + indexB] = A[indexA]
+                            indexA += 1
+                        else:
+                            self.arr[start + indexA + indexB] = B[indexB]
+                            indexB += 1
+                            inversions += len(A) - indexA
+                    elif indexA < len(A):
+                        while indexA < len(A):
+                            self.arr[start + indexA + indexB] = A[indexA]
+                            indexA += 1
+                    elif indexB < len(B):
+                        while indexB < len(B):
+                            self.arr[start + indexA + indexB] = B[indexB]
+                            indexB += 1
+
+        while n < len(arr):
+            for seg in range(0,math.ceil(len(arr)/(2*n))):
+                min = 2*n*seg
+                leftarr = arr[min:min+n]
+                rightarr = arr[min+n:min+2*n]
+                mergeSortedArrays(min,leftarr,rightarr)
+            n *= 2
+        
+        return [arr,inversions]
+
+N = int(input())
+
+arr = []
+
+for i in range(N):
+    arr.append(int(input()))
+
+A = SortingArray(arr)
+print(A.mergeSort()[1])
